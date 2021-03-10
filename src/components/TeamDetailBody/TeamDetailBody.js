@@ -26,8 +26,8 @@ const TeamDetailBody = (props) => {
                     </div>
                     <div className="col-md-5">
                         {
-                            strGender === "Male" ? <img className="w-100" src={Male} />
-                            : <img className="w-100" src={Female} />
+                            strGender === "Male" ? <img className="w-100" src={Male} alt="male" />
+                            : <img className="w-100" src={Female} alt="female" />
                         }
                         
                     </div>

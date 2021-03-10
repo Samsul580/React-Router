@@ -16,7 +16,7 @@ const Team = (props) => {
     return (
         <div>
             <div className="p-3 team-box">
-                <img className="w-50 h-50" src={teamImg.strBadge} alt="" />
+                <img className="w-50 h-50" src={teamImg.strBadge} alt="strbadge" />
                 <h5 className="m-2">{strLeague}</h5>
                 <p>Sports type: {strSport}</p>
                 <button className="btn btn-warning text-light team-btn"><Link to={`/team/${idLeague}`}>Explore <FontAwesomeIcon icon={faArrowRight} /></Link></button>
