@@ -38,9 +38,9 @@ const TeamDetailBody = (props) => {
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas ad fuga dolorem culpa reiciendis, quo nemo excepturi ab dolor a quaerat commodi suscipit sequi? Quos harum laboriosam, mollitia qui ipsum tenetur maiores asperiores quia, ullam consequuntur perspiciatis ab voluptate eum modi veritatis alias iusto, natus officia quo exercitationem consectetur nulla debitis dolore! Molestias fuga dolorem quaerat ad eaque tempore nihil quis, placeat consequatur id. Accusantium voluptatum natus nihil asperiores hic aspernatur sequi. Nihil molestias, consequatur cum distinctio consequuntur sapiente soluta, cumque totam omnis incidunt aliquam quae, vero possimus itaque quia? Temporibus porro recusandae impedit deserunt ratione tempore optio necessitatibus sint?</p>
             </div>
             <div className="d-flex justify-content-center team-detail_icon">
-                <li><a href={`https://${strTwitter}`} target="_blank" className="twitter"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                <li><a href={strTwitter} target="_blank" className="twitter"><FontAwesomeIcon icon={faTwitter} /></a></li>
                 <li><a className="facebook"><FontAwesomeIcon icon={faFacebook} /></a></li>
-                <li><a href={`https://${strYoutube}`} target="_blank" className="youtube"><FontAwesomeIcon icon={faYoutube} /></a></li>
+                <li><a href={strYoutube} target="_blank" className="youtube"><FontAwesomeIcon icon={faYoutube} /></a></li>
             </div>
         </div>
     );
