@@ -2,7 +2,6 @@ import React from 'react';
 import './TeamDetailBody.css';
 import Male from '../../images/male.png';
 import Female from '../../images/female.png';
-import ReactDOM from 'react-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChessPawn, faFlag, faFutbol, faMars } from '@fortawesome/free-solid-svg-icons';
 import {
