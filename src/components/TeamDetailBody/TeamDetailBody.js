@@ -39,7 +39,7 @@ const TeamDetailBody = (props) => {
             </div>
             <div className="d-flex justify-content-center team-detail_icon">
                 <li><a href={`https://${strTwitter}`} target="_blank" className="twitter"><FontAwesomeIcon icon={faTwitter} /></a></li>
-                <li><a href="#" target="_blank" className="facebook"><FontAwesomeIcon icon={faFacebook} /></a></li>
+                <li><a className="facebook"><FontAwesomeIcon icon={faFacebook} /></a></li>
                 <li><a href={`https://${strYoutube}`} target="_blank" className="youtube"><FontAwesomeIcon icon={faYoutube} /></a></li>
             </div>
         </div>
