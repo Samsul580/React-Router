@@ -1,0 +1,14 @@
+.team-header {
+    background-image: url(../../images/football.jpeg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.blur {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 70px;
+}
+.team-header img {
+    width: 200px;
+}

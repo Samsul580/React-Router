@@ -1,0 +1,24 @@
+.teams {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-column-gap: 10px;
+    text-align: center;
+    
+}
+.teams-area {
+    background-color: #BD1E51;
+    padding-top: 50px;
+}
+@media screen and (max-width: 992px) {
+    .teams {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-column-gap: 10px;
+        text-align: center; 
+    }
+  }
+@media screen and (max-width: 600px) {
+    .teams {
+        display: block;
+    }
+  }

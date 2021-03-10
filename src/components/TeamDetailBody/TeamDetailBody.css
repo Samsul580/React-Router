@@ -1,0 +1,43 @@
+.team-detail-body {
+    background: #BD1E51;
+    
+}
+.team-detail-card {
+    background: rgb(9, 151, 151);
+    border-radius: 15px;
+}
+.team-detail-body {
+    color: #C6C6C6;
+    padding: 20px;
+    font-size: 20px;
+}
+.team-detail_icon {
+    list-style: none;
+}
+.team-detail_icon li {
+    margin: 10px;
+}
+.team-detail_icon li a {
+    display: inline-block;
+}
+.team-detail_icon li .twitter {
+    color: #fff;
+    background-color: #1DA1F2;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 30px;
+}
+.team-detail_icon li .facebook {
+    color: #fff;
+    background-color: #3B5998;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 30px;
+}
+.team-detail_icon li .youtube {
+    color: #fff;
+    background-color: #FF0000;
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 30px;
+}
